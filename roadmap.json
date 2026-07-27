@@ -1,0 +1,54 @@
+{
+  "source": "Marcura Maritime Scope 3 Strategy Report, Section 10 (Implementation Priorities)",
+  "report_text": "Initial release: License a general-purpose calculation engine and factor database; partner with an AIS-based vessel calculation provider for sea-freight legs; build a maritime procurement taxonomy for the highest-volume Scope 3 category (vessel spares and consumables); ship a single audit-ready report type. Phase two: Extend the taxonomy to additional procurement categories; launch supplier engagement workflows with a pilot group of maritime suppliers; add IMO-aligned KPI reporting benchmarked against established shipping carbon-intensity methodologies; deepen ERP and procurement-system integrations. Phase three: Explore port-services emissions as a defined data category, in partnership with port authorities or logistics data providers given the near-total absence of existing data; pursue independent methodology certification; evaluate AI-assisted invoice classification tuned specifically to maritime procurement line items. Design constraint: Every release should ship as a feature embedded within existing maritime operational workflows, not as a new standalone platform requiring a separate login — buyers with multiple point systems already in place are unlikely to adopt an additional dashboard.",
+  "phases": [
+    {
+      "phase": "Phase 1 - Measure",
+      "items": [
+        "Supplier and procurement ingestion",
+        "Emissions calculation",
+        "Scope 3 categorisation",
+        "Audit trail",
+        "Executive dashboards"
+      ],
+      "note": "Directly consistent with the report's stated initial release scope (license engine, build maritime taxonomy, ship a single audit-ready report type).",
+      "is_inference": false
+    },
+    {
+      "phase": "Phase 2 - Engage",
+      "items": [
+        "Supplier data requests",
+        "ESG assessments",
+        "Supplier collaboration",
+        "Evidence collection",
+        "Recommendation workflows"
+      ],
+      "note": "Matches the report's Phase 2 description (supplier engagement workflows, IMO-aligned KPI reporting).",
+      "is_inference": false
+    },
+    {
+      "phase": "Phase 3 - Optimize",
+      "items": [
+        "Reduction scenarios",
+        "Sourcing alternatives",
+        "Route optimisation",
+        "Mode optimisation",
+        "AI-supported decision intelligence"
+      ],
+      "note": "Matches the report's Phase 3 description (port-services emissions exploration, methodology certification).",
+      "is_inference": false
+    },
+    {
+      "phase": "Phase 4 - Scale",
+      "items": [
+        "Additional maritime hubs",
+        "Partner integrations",
+        "Factor-library expansion",
+        "Enterprise APIs",
+        "Multi-region deployment"
+      ],
+      "note": "Not explicitly phased in the report as a numbered 'Phase 4'; this phase and its label are an inference consistent with the report's Section 6 conclusion that no competitor combines maritime specialisation across multiple hubs, and with this website's own two-hub (Singapore + Dubai) architecture as a first step toward that scale.",
+      "is_inference": true
+    }
+  ]
+}
